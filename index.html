@@ -16,7 +16,7 @@
 		<header>
 			<div class="container-flex">
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-				<a class="navbar-brand" href="#">Юридические услуги Ильи</a>
+				<a class="navbar-brand" href="#">Юридические услуги</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="falce" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -36,8 +36,8 @@
 				</div>
 			</nav>
 			<div class="img-fluid headerImg text-center">
-				<h1>Юрист Илья</h1>
-				<p>Ваша скорая юристическая помощь</p>
+				<h1>Юридическая помощь</h1>
+				<p>в Краснодаре и Краснодарском крае</p>
 				<button class="button" data-toggle="modal" data-target="#triggerOrder">Заказать звонок</button></div>
 			</div>
 			</div>
@@ -162,11 +162,29 @@
 </div>
 </div>
 </div>
-		<div class="container-fluid prices">
+		<div class="container-fluid circles">
 			<div class="row">
-				<div class="col"></div>
-				<div class="col"></div>
-				<div class="col"></div>
+				<div class="col">
+					<div class="feature text-center">
+						<img class="rounded-circle" src="https://via.placeholder.com/200x200.png">
+						<h5>Надёжность</h5>
+						<p>Высокая квалификация, опыт ведения сложных дел и глубокое знание права.</p>
+					</div>
+				</div>
+				<div class="col">
+					<div  class="feature text-center">
+						<img class="rounded-circle" src="https://via.placeholder.com/200x200.png">
+						<h5>Ответственность</h5>
+						<p>Поддержка и внимательное отношение к каждому клиенту.</p>
+					</div>
+				</div>
+				<div class="col">
+					<div  class="feature text-center">
+						<img class="rounded-circle" src="https://via.placeholder.com/200x200.png">
+						<h5>Результат</h5>
+						<p>Я не разбрасываюсь обещаниями, а всегда честно прогнозирую возможный исход дела.</p>
+					</div>
+				</div>
 			</div>	
 		</div>
 		</div>
@@ -176,10 +194,10 @@
 				<p>Я свяжусь с Вами, чтобы уточнить дату и время встречи
 </p>
 				<form class="inputBox">
-					<input type="text" name="Email" value placeholder="Vasha pochta"><br>
-					<input type="text" name="Name" value placeholder="Vasha nepochta))0"><br>
-					<input type="text" name="Comment" value placeholder="Vasha problema"><br>
-					<button class="button" type="submit">Тык</button>
+					<input type="text" name="name" value placeholder="Ваше имя"><br>
+					<input type="text" name="mail" value placeholder="Ваш телефон"><br>
+					<input type="text" name="Comment" value placeholder="Ваш вопрос"><br>
+					<button class="button" type="submit">Отправить</button>
 				</form>
 			</div>
 		</div>
@@ -187,14 +205,15 @@
 			<div class="container-fluid">
 				<div class="row contacts">
 					<div class="col-sm-6">
-						<iframe style="padding:0;" width="100%" height="70%" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/map-my-route/">Create a route on google maps</a></iframe>
+<!--						<iframe style="padding:0;" width="100%" height="70%" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/map-my-route/">Create a route on google maps</a></iframe>-->
+						<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A0ce2a749283dfe556d03d89dd2936ab081e068c68ffec77bf7a1161de82dd0b1&amp;source=constructor" width="100%" height="70%" frameborder="0" style="padding:0;"></iframe>
 					</div>
 					<div class="col-sm-6">
 						<div class="contactsText">
-							<b>Юрист Ололо Ололошкович</b><br><br>
-							<p>г.Краснодыр, п.Лососистый, ул.Пер.Звезданутый, 1/1</p>
+							<b>Илья</b><br><br>
+							<p>г.Краснодар, п.Колосистый, ул.пер.Звездный, 1/1</p>
 							<p>Телефон: <a href="tel:88005223535">8 800 522 35 35</a></p>
-							<p>Почта: <a href="mailto:yourist@mail.ru">yourist@mail.ru</a></p>
+							<p>Почта: <a href="mailto:sa-yourist@yandex.ru">sa-yourist@yandex.ru</a></p>
 							<p>Время работы: пн-пт 09:00-18:00</p>
 						</div>
 					</div>
@@ -217,15 +236,14 @@
                   <div class="center modal-body">
                     <p>Пожалуйста заполните поля ниже, чтобы я мог связатсья с Вами</p>
                     <input type="text" name="name" placeholder="Ваше имя" required="required" /><br/>
-                    <input  type="email" name="email" required placeholder="Ваша@почта.ru" required="required" /><br/>
-					<span class="email-invalid" style="display:none">Должен быть правильный ардрес почты!</span>
-                    <input type="phone" name="phone" placeholder="Телефон" /><br/>
+                    <input type="phone" name="phone" placeholder="Ваш номер телефона" /><br/>
+                    <input type="phone" name="phone" placeholder="Ваш вопрос" /><br/>
                   </div>
                     <div class="modal-footer">
-                      <button class="button modal-footerBtn" type="submit">Тык</button>
+                      <button class="button modal-footerBtn" type="submit">Отправить</button>
                     </div>
 					<div class="thankyou_message" style="display:none;">
-                      <h2><em>Спасибо</em> за то что написали нам! Вскоре мы Вам перезвоним!</h2>
+                      <h2><em>Спасибо</em> что обратились ко мне! Вскоре я Вам перезвоню!</h2>
                     </div>
                 </form>
               </div>

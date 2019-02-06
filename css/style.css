@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5{
 	font-size: 5em;
 }
 .headerImg p{
-	font-size: 3em;
+	font-size: 2em;
 }
 .mb-0{
 	margin-top: 20px;
@@ -84,9 +84,21 @@ footer{
 	height: 25vh;
 	background-color: #000;
 }
-.prices{
+.circles{
+	color: white;
 	background-color: #2f2f2f;
-	height: 50vh;
+	min-height: 50vh;
+}
+.circles .row{
+	margin-bottom: 10vh;
+}
+.feature{
+	margin-top: 10vh;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.feature h5{
+	margin-top: 2vh;
 }
 .form{
 	margin-top: 6vh;
