@@ -2,10 +2,14 @@
 body{
 	font-family: 'Roboto', sans-serif;
 	background-color: #fff;
+	overflow-x: hidden;
+	
 }
 h1,h2,h3,h4,h5{
-	
 	font-family: 'Playfair Display', serif;
+}
+h1{
+	font-size: 5vw !important;
 }
 .navbar {
     padding: 15px 10px;
@@ -69,7 +73,7 @@ h1,h2,h3,h4,h5{
 footer{
 	min-height: 50vh;
 	color: white;
-	background-color: #333;
+	background-color: rgb(0%, 0%, 0%, 0.75);
 }
 .contacts{
 	min-height: 20vh;
@@ -86,7 +90,7 @@ footer{
 }
 .circles{
 	color: white;
-	background-color: #2f2f2f;
+	background-color: rgb(0%, 0%, 0%, 0.75);
 	min-height: 50vh;
 	padding: 5vh 2vh 5vh 2vh;
 }
@@ -112,9 +116,10 @@ footer{
 }
 .form{
 	margin-top: 6vh;
-	margin-bottom: 8vh;
-	height: 40vh;
+	margin-bottom: 6vh;
+	min-height: 40vh;
 	background-color: #fff;
+	margin-bottom: 15vh;
 }
 .form input{
 	height: 56px;
