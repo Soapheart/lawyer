@@ -88,14 +88,24 @@ footer{
 	color: white;
 	background-color: #2f2f2f;
 	min-height: 50vh;
+	padding: 5vh 2vh 5vh 2vh;
 }
 .circles .row{
 	margin-bottom: 10vh;
 }
-.feature{
+.circles .text-center{
+	padding-top: 4vh;
+}
+@media .feature (min-width: 600px){
 	margin-top: 10vh;
+}
+.feature{
+/*	margin-top: 10vh;*/
 	padding-left: 20px;
 	padding-right: 20px;
+}
+.feature img{
+	border: solid 2px #bd9840;
 }
 .feature h5{
 	margin-top: 2vh;
