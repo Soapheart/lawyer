@@ -35,10 +35,8 @@ h1{
 }
 .headerImg{
 	color: #fff;
- 	background-color: rgb(0%, 0%, 0%, 0.75);
-	background-image: url(/img/hammer.jpg);
+	background: #444 url(/img/hammer.jpg);
     background-size: cover;
-	background-blend-mode:multiply;
     min-height: 100vh;
 }
 .headerImg h1{
@@ -74,7 +72,14 @@ h1{
 footer{
 	min-height: 50vh;
 	color: white;
-	background-color: rgb(0%, 0%, 0%, 0.75);
+	background: #444;
+}
+footer a{
+	text-decoration: none;
+	color: #bd9840;
+}
+footer a:hover{
+	color: #e8b94a;
 }
 .contacts{
 	min-height: 20vh;
@@ -91,7 +96,7 @@ footer{
 }
 .circles{
 	color: white;
-	background-color: rgb(0%, 0%, 0%, 0.75);
+	background: #444;
 	min-height: 50vh;
 	padding: 5vh 2vh 5vh 2vh;
 }
@@ -155,4 +160,7 @@ footer{
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
+}
+html[data-useragent*='MSIE 10.0'] h1 {
+  color: blue !important;
 }
