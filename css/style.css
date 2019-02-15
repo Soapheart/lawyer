@@ -35,7 +35,7 @@ h1{
 }
 .headerImg{
 	color: #fff;
-	background: #444 url(/img/hammer.jpg);
+	background: #444 url(https://soapheart.github.io/lawyer/img/hammer.jpg);
     background-size: cover;
     min-height: 100vh;
 }
