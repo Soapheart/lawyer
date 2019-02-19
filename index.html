@@ -7,7 +7,6 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
-		<script type="text/javascript" src="js/mail.js"></script>
 <!--		<script type="text/javascript" src="js/smoothScroll.js"></script>-->
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -23,13 +22,13 @@
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item">
-							<a class="nav-item nav-link" href="#">Услуги</a>
+							<a class="nav-item nav-link" href="#s1">Услуги</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-item nav-link" href="#">Цены</a>
+							<a class="nav-item nav-link" href="#s2">Достоинства</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-item nav-link" href="#">Контакты</a>
+							<a class="nav-item nav-link" href="#s3">Контакты</a>
 						</li>
 					</ul>
 					<b><a class="navbarPhone" href="tel:88005223535"><i class="fas fa-phone"></i> 8 800 522 35 35</a></b>
@@ -45,10 +44,10 @@
 			</div>
 			</div>
 		</header>
-		<div class="container textBlock">
+		<div class="container textBlock" id="s1">
 			<div class="text-center">
 				<h2>Область работы</h2>
-				<p>Я помогу Вам в любом вопросе касающемся одной из этих сфер:</p>
+				<p>Профессиональная помощь в любом вопросе касающемся одной из этих сфер:</p>
 			</div>
 <!--			-->
 			<div id="accordion">
@@ -114,12 +113,11 @@
 							<li>Удалёное ведение дел</li>
 							<li>Банкротство</li>
 							<li>Взыскание долгов</li>
-							<li>Договоры и соглашения</li>
-							<li>Исковая и претензионная работа</li>
+							<li>Договоры, соглашения, исковая и претензионная работа</li>
 							<li>Досудебная работа и представительсто в судах</li>
 							<li>ДТП: Взыскание ОСАГО</li>
 							<li>Узаконивание недвижимости</li>
-							<li>Приватизация земли, квартиры</li>
+							<li>Приватизация земли, квартиры, узаконивание перепланировок</li>
 							<li>Европейский суд по правам человека</li>
 							<li>Споры с государственными учреждениями</li>
 							<li>Кредитные споры</li>
@@ -169,10 +167,11 @@
 			</div>
 <!--			-->
 		</div>
-		<div class="container-fluid circles">
+		<div class="container-fluid circles" id="s2">
 			<div class="container">
 				<div class="text-center">
-					<h2>Почему ко мне обращаются</h2><p>Ololololololololololo</p>
+					<h2>Почему ко мне обращаются</h2>
+					<p></p>
 				</div>
 				<div class="row">
 					<div class="col">
@@ -203,16 +202,16 @@
 			<div class="text-center">
 				<h2>Отправьте запрос на бесплатную консультацию</h2><br>
 				<p>Я свяжусь с Вами, чтобы уточнить дату и время встречи</p>
-				<form class="inputBox">
-					<input type="text" name="name" value placeholder="Ваше имя"><br>
-					<input type="text" name="mail" value placeholder="Ваш телефон"><br>
-					<input type="text" name="Comment" value placeholder="Ваш вопрос"><br>
+				<form method="post" data-email="example@email.net" id="form" action="https://script.google.com/macros/s/AKfycbxl2s5QodiQCMyzhhWZv5YxFnFwSO-T5oPzzkql/exec" class="inputBox">
+					<input type="text" name="name" value placeholder="Ваше имя" required="required"><br>
+					<input type="text" name="phone" placeholder="Ваш номер телефона" required="required"><br>
+					<input type="text" name="question" value placeholder="Ваш вопрос"><br>
 					<button class="button" type="submit">Отправить</button>
 				</form>
 			</div>
 		</div>
 		<footer>
-			<div class="container-fluid">
+			<div class="container-fluid" id="s3">
 				<div class="row contacts">
 					<div class="col-sm-6">
 <!--						<iframe style="padding:0;" width="100%" height="70%" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/map-my-route/">Create a route on google maps</a></iframe>-->
@@ -220,10 +219,10 @@
 					</div>
 					<div class="col-sm-6">
 						<div class="contactsText">
-							<b>Илья</b><br><br>
+							<b>Юридические услуги</b><br><br>
 							<p>г.Краснодар, п.Колосистый, ул.пер.Звездный, 1/1</p>
-							<p>Телефон: <a href="tel:88005223535">8 800 522 35 35</a></p>
-							<p>Почта: <a href="mailto:sa-yourist@yandex.ru">sa-yourist@yandex.ru</a></p>
+<!--							<p>Телефон: <a href="tel:88005223535">8 800 522 35 35</a></p>-->
+							<p>Почта: <a href="mailto:sayourist@yandex.ru">sayourist@yandex.ru</a></p>
 							<p>Время работы: пн-пт 09:00-18:00</p>
 						</div>
 					</div>
@@ -232,7 +231,7 @@
 			<div class="bottomContacts text-center">
 				<p>Per aspera ad astra</p>
 				<p>-=@=-</p>
-				<p>Дизойн и разработка Soapheart</p>
+				<p>Дизайн и разработка Soapheart</p>
 			</div>
 		</footer>
 		<div class="modal fade" id="triggerOrder" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
@@ -242,12 +241,12 @@
                 <h2 class="modal-title" id="myModalLabel">Заказать звонок</h2>
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
               </div>
-                <form method="post" data-email="example@email.net" id="form" action="" class="inputbox form">
+                <form method="post" data-email="example@email.net" id="form" action="https://script.google.com/macros/s/AKfycbxl2s5QodiQCMyzhhWZv5YxFnFwSO-T5oPzzkql/exec" class="inputbox form">
                   <div class="center modal-body">
                     <p>Пожалуйста заполните поля ниже, чтобы я мог связатсья с Вами</p>
                     <input type="text" name="name" placeholder="Ваше имя" required="required" /><br/>
-                    <input type="phone" name="phone" placeholder="Ваш номер телефона" /><br/>
-                    <input type="phone" name="phone" placeholder="Ваш вопрос" /><br/>
+                    <input type="text" name="phone" placeholder="Ваш номер телефона" required="required" /><br/>
+                    <input type="text" name="question" placeholder="Ваш вопрос" /><br/>
                   </div>
                     <div class="modal-footer">
                       <button class="button modal-footerBtn" type="submit">Отправить</button>
@@ -259,5 +258,6 @@
               </div>
             </div>
           </div>
+		<script type="text/javascript" src="js/mail.js"></script>
 	</body>
 </html>
