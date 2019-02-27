@@ -5,7 +5,7 @@ body{
 	overflow-x: hidden;
 	
 }
-h1,h2,h3,h4,h5{
+h1,h2,h3,h4,h5,h6{
 	font-family: 'Playfair Display', serif;
 }
 h1{
@@ -121,8 +121,7 @@ footer a:hover{
 	margin-top: 2vh;
 }
 .form{
-	margin-top: 6vh;
-	margin-bottom: 6vh;
+	margin-top: 15vh;
 	min-height: 40vh;
 	background-color: #fff;
 	margin-bottom: 15vh;
@@ -172,13 +171,19 @@ html[data-useragent*='MSIE 10.0'] h1 {
 	margin-bottom: 10vh;
 	min-height: 60vh;
 }
+.portraitsDesc{
+	padding: 20px;
+}
 .portraits .row{
-	border-bottom: 1px solid #bd9840;
+	border-bottom: 2px solid #bd9840;
 	background-color: antiquewhite;
 	margin-top: 50px;
 }
 .portraits img{
+	margin-top: 20px;
 	border: solid 2px #bd9840;
-	width: 200px;
-	height: 200px;
+	max-height: 200px;
+}
+.line{
+	border-bottom: 2px solid #bd9840;
 }
