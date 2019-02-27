@@ -121,7 +121,8 @@ footer a:hover{
 	margin-top: 2vh;
 }
 .form{
-	margin-top: 15vh;
+	margin-top: 6vh;
+	margin-bottom: 6vh;
 	min-height: 40vh;
 	background-color: #fff;
 	margin-bottom: 15vh;
@@ -171,18 +172,13 @@ html[data-useragent*='MSIE 10.0'] h1 {
 	margin-bottom: 10vh;
 	min-height: 60vh;
 }
-.portraitsDesc{
-	padding: 20px 0 0 20px;
-}
 .portraits .row{
-	border-bottom: 2px solid #bd9840;
+	border-bottom: 1px solid #bd9840;
 	background-color: antiquewhite;
 	margin-top: 50px;
 }
 .portraits img{
 	border: solid 2px #bd9840;
-	max-height: 200px;
-}
-.line{
-	border-bottom: 2px solid #bd9840;
+	width: 200px;
+	height: 200px;
 }
